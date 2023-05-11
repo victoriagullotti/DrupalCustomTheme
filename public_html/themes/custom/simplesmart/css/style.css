@@ -1,0 +1,71 @@
+/**
+ * CSS for styling website elements.
+ */
+
+/* Body */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+  }
+  
+  /* Links */
+  a {
+    color: #d5d813;
+  }
+  
+  a:hover {
+    color: #005fa3;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #810643;
+  }
+  
+  /* Forms */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #005fa3;
+  }
+  

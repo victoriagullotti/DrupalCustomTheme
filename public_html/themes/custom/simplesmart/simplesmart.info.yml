@@ -1,0 +1,21 @@
+name: Simple Smart Theme
+type: theme
+core_version_requirement: ^8 || ^9
+core: 8.x
+vase theme: classy
+description: "A sleek and practical theme for curious minds"
+base theme: stable
+logo: logo.svg
+screenshot: screen.jpg
+libraries:
+  - simplesmart/global-css
+  - simplesmart/pacifico-font
+regions:
+  header: Header
+  navigation: Navigation
+  primary_menu: 'Primary menu'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  footer: Footer
+
+
