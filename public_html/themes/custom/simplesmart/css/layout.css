@@ -1,0 +1,54 @@
+/**
+ * CSS for layout and positioning of website elements.
+ */
+
+/* Page container */
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem;
+  }
+  
+  /* Logo */
+  .logo {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  /* Main content area */
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+  
+  /* Primary content */
+  .primary {
+    width: 70%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 28%;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #ddd;
+    border-top: 1px solid #999;
+    padding: 1rem;
+    text-align: center;
+  }
+  
